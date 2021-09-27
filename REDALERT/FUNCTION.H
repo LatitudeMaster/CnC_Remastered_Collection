@@ -46,74 +46,74 @@
 Map (screen) class heirarchy.
 
  MapeditClass (most derived class) -- scenario editor
-        ³
+        ?
    MouseClass -- handles mouse animation and display control
-        ³
+        ?
   ScrollClass -- map scroll handler
-        ³
+        ?
     HelpClass -- pop-up help text handler
-        ³
+        ?
      TabClass -- file folder tab screen mode control dispatcher
-        ³
+        ?
  SidebarClass -- displays and controls construction list sidebar
-        ³
+        ?
    PowerClass -- display power production/consumption bargraph
-        ³
+        ?
    RadarClass -- displays and controls radar map
-        ³
+        ?
  DisplayClass -- general tactical map display handler
-        ³
+        ?
      MapClass -- general tactical map data handler
-        ³
+        ?
  GScreenClass (pure virtual base class) -- generic screen control
 
                           AbstractClass
-                                  ³
-                                  ³
-                                  ³
-                                  ³
+                                  ?
+                                  ?
+                                  ?
+                                  ?
                             ObjectClass
-                                  ³
+                                  ?
        ÚÄÄÄÄÄÄÂÄÄÄÄÄÄÄÄÄÄÂÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÂÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÂÄÄÄÄÄÄÄÄÄÄÄ¿
-   AnimClass  ³  TemplateClass    ³        ÃÄ FuseClass     ³    TerrainClass
-              ³                   ³        ÃÄ FlyClass      ³
-              ³                   ³  BulletClass            ³
+   AnimClass  ? TemplateClass    ?       ÃÄ FuseClass     ?   TerrainClass
+              ?                  ?       ÃÄ FlyClass      ?
+              ?                  ? BulletClass            ?
        OverlayClass        MissionClass               SmudgeClass
-                                  ³
+                                  ?
                              RadioClass
-                                  ³
+                                  ?
                                   ÃÄ CrewClass
                                   ÃÄ FlasherClass
                                   ÃÄ StageClass
                                   ÃÄ CargoClass
                             TechnoClass
-                                  ³
-                       ÚÄÄÄÄÄÄÄÄÄÄÁÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+                                  ?
+                       ÚÄÄÄÄÄÄÄÄÄÄÁÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ?
                    FootClass                           BuildingClass
-                       ³
+                       ?
          ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÁÂÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
     DriveClass  InfantryClass         ÃÄ FlyClass
-         ³                      AircraftClass
-       ÚÄÁÄÄÄÄÄÄÄÄÄ¿
-       ³           ³
-       ³     VesselClass
-       ³
+         ?                     AircraftClass
+       ÚÄÁÄÄÄÄÄÄÄÄÄ?
+       ?          ?
+       ?    VesselClass
+       ?
     UnitClass
 
 
                             AbstractTypeClass
-                                    ³
+                                    ?
                               ObjectTypeClass
-                                    ³
-             ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÄÄÄÄÂÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
-             ³                      ³            ³                 ³
-       TechnoTypeClass              ³            ³                 ³
-             ³                BulletTypeClass    ³                 ³
-             ³                           TemplateTypeClass         ³
+                                    ?
+             ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÄÄÄÄÂÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ?
+             ?                     ?           ?                ?
+       TechnoTypeClass              ?           ?                ?
+             ?               BulletTypeClass    ?                ?
+             ?                          TemplateTypeClass         ?
     ÚÄÄÄÄÄÄÄÄÁÄÄÄÄÄÂÄÄÄÄÄÄÄÄÄÄÄÂÄÄÄÄÄÄÄÄÄÄÄÄÄÄÂÄÄÄÄÄÄÄÄ¿    TerrainTypeClass
-    ³              ³           ³              ³        ³
-UnitTypeClass      ³   BuildingTypeClass      ³  VesselTypeClass
-                   ³                          ³
+    ?             ?          ?             ?       ?
+UnitTypeClass      ?  BuildingTypeClass      ? VesselTypeClass
+                   ?                         ?
            AircraftTypeClass          InfantryTypeClass
 #endif
 

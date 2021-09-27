@@ -348,19 +348,19 @@ int MapEditClass::Save_Scenario(void)
  *   - Scenario #                                                          *
  *                                                                         *
  *           ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿                          *
- *           ³            Caption               ³                          *
- *           ³                                  ³                          *
- *           ³         Scenario ___             ³                          *
- *           ³          Version ___             ³                          *
- *           ³                                  ³                          *
- *           ³         [East]  [West]           ³                          *
- *           ³                                  ³                          *
- *           ³         [    GDI     ]           ³                          *
- *           ³         [    NOD     ]           ³                          *
- *           ³         [Multi-Player]           ³                          *
- *           ³                                  ³                          *
- *           ³         [OK]  [Cancel]           ³                          *
- *           ³                                  ³                          *
+ *           ?           Caption               ?                         *
+ *           ?                                 ?                         *
+ *           ?        Scenario ___             ?                         *
+ *           ?         Version ___             ?                         *
+ *           ?                                 ?                         *
+ *           ?        [East]  [West]           ?                         *
+ *           ?                                 ?                         *
+ *           ?        [    GDI     ]           ?                         *
+ *           ?        [    NOD     ]           ?                         *
+ *           ?        [Multi-Player]           ?                         *
+ *           ?                                 ?                         *
+ *           ?        [OK]  [Cancel]           ?                         *
+ *           ?                                 ?                         *
  *           ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ                          *
  *                                                                         *
  * INPUT:                                                                  *
@@ -847,26 +847,26 @@ int MapEditClass::Pick_Scenario(char const * caption, int *scen_nump,
  * properly exit the screen, since they have a blank undisplayed cell to   *
  * exit onto.                                                              *
  *                                                                         *
- *   ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿               *
- *   ³                                                     ³               *
- *   ³  ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿   Clear Terrain            ³               *
- *   ³  ³                     ³   Water                    ³               *
- *   ³  ³                     ³   Tiberium                 ³               *
- *   ³  ³                     ³   Rock/Wall/Road           ³               *
- *   ³  ³     (Map Area)      ³   GDI Unit                 ³               *
- *   ³  ³                     ³   NOD Unit                 ³               *
- *   ³  ³                     ³   Neutral Unit             ³               *
- *   ³  ³                     ³   Terrain Object           ³               *
- *   ³  ³                     ³   Starting Cell            ³               *
- *   ³  ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ                            ³               *
- *   ³                                                     ³               *
- *   ³      X            Y            Width      Height    ³               *
- *   ³      ##           ##            ##          ##      ³               *
- *   ³                                                     ³               *
- *   ³                                                     ³               *
- *   ³               [OK]            [Cancel]              ³               *
- *   ³                                                     ³               *
- *   ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ               *
+ *   ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ?              *
+ *   ?                                                    ?              *
+ *   ? ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ?  Clear Terrain            ?              *
+ *   ? ?                    ?  Water                    ?              *
+ *   ? ?                    ?  Tiberium                 ?              *
+ *   ? ?                    ?  Rock/Wall/Road           ?              *
+ *   ? ?    (Map Area)      ?  GDI Unit                 ?              *
+ *   ? ?                    ?  NOD Unit                 ?              *
+ *   ? ?                    ?  Neutral Unit             ?              *
+ *   ? ?                    ?  Terrain Object           ?              *
+ *   ? ?                    ?  Starting Cell            ?              *
+ *   ? ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ?                           ?              *
+ *   ?                                                    ?              *
+ *   ?     X            Y            Width      Height    ?              *
+ *   ?     ##           ##            ##          ##      ?              *
+ *   ?                                                    ?              *
+ *   ?                                                    ?              *
+ *   ?              [OK]            [Cancel]              ?              *
+ *   ?                                                    ?              *
+ *   ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ?              *
  *                                                                         *
  * INPUT:                                                                  *
  *      x,y,w,h:      initial size parameters (-1 = center the thing)      *
@@ -1495,28 +1495,28 @@ int MapEditClass::Size_Map(int x, int y, int w, int h)
  * Lets the user edit the Theater, starting credits for houses, and the    *
  * Edge for HOUSE_GOOD & HOUSE_BAD.                                        *
  *                                                                         *
- * ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿ *
- * ³       Theater                                Credits / 1000         ³ *
- * ³  ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿                                                  ³ *
- * ³  ³ Temperate     ³                          GDI: _____              ³ *
- * ³  ³ Desert        ³                          NOD: _____              ³ *
- * ³  ³ Jungle        ³                      Neutral: _____              ³ *
- * ³  ³               ³                                                  ³ *
- * ³  ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ                                                  ³ *
- * ³   Build Level:___                                                   ³ *
- * ³                                                                     ³ *
- * ³                         Reinforcements                              ³ *
- * ³                                                                     ³ *
- * ³                    GDI                NOD                           ³ *
- * ³                                                                     ³ *
- * ³                                                                   ³ *
- * ³                  <-   ->            <-   ->                         ³ *
- * ³                                                                   ³ *
- * ³                                                                     ³ *
- * ³                                                                     ³ *
- * ³                       [OK]     [Cancel]                             ³ *
- * ³                                                                     ³ *
- * ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ *
+ * ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ?*
+ * ?      Theater                                Credits / 1000         ?*
+ * ? ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ?                                                 ?*
+ * ? ?Temperate     ?                         GDI: _____              ?*
+ * ? ?Desert        ?                         NOD: _____              ?*
+ * ? ?Jungle        ?                     Neutral: _____              ?*
+ * ? ?              ?                                                 ?*
+ * ? ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ?                                                 ?*
+ * ?  Build Level:___                                                   ?*
+ * ?                                                                    ?*
+ * ?                        Reinforcements                              ?*
+ * ?                                                                    ?*
+ * ?                   GDI                NOD                           ?*
+ * ?                                                                    ?*
+ * ?                                                                  ?*
+ * ?                 <-   ->            <-   ->                         ?*
+ * ?                                                                  ?*
+ * ?                                                                    ?*
+ * ?                                                                    ?*
+ * ?                      [OK]     [Cancel]                             ?*
+ * ?                                                                    ?*
+ * ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ?*
  *                                                                         *
  * INPUT:                                                                  *
  *      none.                                                              *
@@ -2221,20 +2221,20 @@ void MapEditClass::Handle_Triggers(void)
  * CurTrigger can be NULL when this function is called.                    *
  *                                                                         *
  *    ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿           *
- *    ³                       Triggers                         ³           *
- *    ³    ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÂÄ¿    ³           *
- *    ³    ³ Name     Event     Action    House   Team  ³³    ³           *
- *    ³    ³ Name     Event     Action    House   Team  ÃÄ´    ³           *
- *    ³    ³ Name     Event     Action    House   Team  ³ ³    ³           *
- *    ³    ³ Name     Event     Action    House   Team  ³ ³    ³           *
- *    ³    ³                                            ³ ³    ³           *
- *    ³    ³                                            ³ ³    ³           *
- *    ³    ³                                            ÃÄ´    ³           *
- *    ³    ³                                            ³³    ³           *
- *    ³    ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÁÄÙ    ³           *
- *    ³                                                        ³           *
- *    ³      [Edit]        [New]        [Delete]      [OK]     ³           *
- *    ³                                                        ³           *
+ *    ?                      Triggers                         ?          *
+ *    ?   ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÂÄ¿    ?          *
+ *    ?   ?Name     Event     Action    House   Team  ??   ?          *
+ *    ?   ?Name     Event     Action    House   Team  ÃÄ?   ?          *
+ *    ?   ?Name     Event     Action    House   Team  ??   ?          *
+ *    ?   ?Name     Event     Action    House   Team  ??   ?          *
+ *    ?   ?                                           ??   ?          *
+ *    ?   ?                                           ??   ?          *
+ *    ?   ?                                           ÃÄ?   ?          *
+ *    ?   ?                                           ??   ?          *
+ *    ?   ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÁÄÙ    ?          *
+ *    ?                                                       ?          *
+ *    ?     [Edit]        [New]        [Delete]      [OK]     ?          *
+ *    ?                                                       ?          *
  *    ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ           *
  *                                                                         *
  * INPUT:                                                                  *
@@ -2551,27 +2551,27 @@ int MapEditClass::Select_Trigger(void)
 /***************************************************************************
  * MapEditClass::Edit_Trigger -- lets user edit a [new] trigger            *
  *                                                                         *
- * ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿ *
- * ³                           Trigger Editor                            ³ *
- * ³                                                                     ³ *
- * ³             Events                              Actions             ³ *
- * ³  ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÂÄ¿        ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÂÄ¿  ³ *
- * ³  ³                        ³³        ³                         ³³  ³ *
- * ³  ³                        ÃÄ´        ³                         ÃÄ´  ³ *
- * ³  ³                        ³ ³        ³                         ³ ³  ³ *
- * ³  ³                        ³ ³        ³                         ³ ³  ³ *
- * ³  ³                        ÃÄ´        ³                         ÃÄ´  ³ *
- * ³  ³                        ³³        ³                         ³³  ³ *
- * ³  ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÁÄÙ        ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÁÄÙ  ³ *
- * ³                                                                     ³ *
- * ³           Name: _______                   [  Volatile    ]          ³ *
- * ³                               [GDI]       [  Persistent  ]          ³ *
- * ³ Time / Credits: _______       [NOD]       [SemiPersistent]          ³ *
- * ³                                                                     ³ *
- * ³          [Team] Team_Name                                           ³ *
- * ³                                                                     ³ *
- * ³                         [OK]        [Cancel]                        ³ *
- * ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ *
+ * ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ?*
+ * ?                          Trigger Editor                            ?*
+ * ?                                                                    ?*
+ * ?            Events                              Actions             ?*
+ * ? ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÂÄ¿        ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÂÄ? ?*
+ * ? ?                       ??       ?                        ?? ?*
+ * ? ?                       ÃÄ?       ?                        ÃÄ? ?*
+ * ? ?                       ??       ?                        ?? ?*
+ * ? ?                       ??       ?                        ?? ?*
+ * ? ?                       ÃÄ?       ?                        ÃÄ? ?*
+ * ? ?                       ??       ?                        ?? ?*
+ * ? ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÁÄÙ        ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÁÄ? ?*
+ * ?                                                                    ?*
+ * ?          Name: _______                   [  Volatile    ]          ?*
+ * ?                              [GDI]       [  Persistent  ]          ?*
+ * ?Time / Credits: _______       [NOD]       [SemiPersistent]          ?*
+ * ?                                                                    ?*
+ * ?         [Team] Team_Name                                           ?*
+ * ?                                                                    ?*
+ * ?                        [OK]        [Cancel]                        ?*
+ * ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ?*
  *                                                                         *
  * INPUT:                                                                  *
  *      none.                                                              *
@@ -3172,22 +3172,22 @@ int MapEditClass::Edit_Trigger(void)
 /***************************************************************************
  * MapEditClass::Import_Triggers -- lets user import triggers              *
  *                                                                         *
- *    ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿                  *
- *    ³                    Triggers                     ³                  *
- *    ³    ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÂÄ¿   ³                  *
- *    ³    ³x Name     Event     Action    House  ³³   ³                  *
- *    ³    ³  Name     Event     Action    House  ÃÄ´   ³                  *
- *    ³    ³x Name     Event     Action    House  ³ ³   ³                  *
- *    ³    ³  Name     Event     Action    House  ³ ³   ³                  *
- *    ³    ³                                      ³ ³   ³                  *
- *    ³    ³                                      ³ ³   ³                  *
- *    ³    ³                                      ÃÄ´   ³                  *
- *    ³    ³                                      ³³   ³                  *
- *    ³    ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÁÄÙ   ³                  *
- *    ³                                                 ³                  *
- *    ³                [OK]     [Cancel]                ³                  *
- *    ³                                                 ³                  *
- *    ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ                  *
+ *    ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ?                 *
+ *    ?                   Triggers                     ?                 *
+ *    ?   ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÂÄ¿   ?                 *
+ *    ?   ³x Name     Event     Action    House  ??  ?                 *
+ *    ?   ? Name     Event     Action    House  ÃÄ?  ?                 *
+ *    ?   ³x Name     Event     Action    House  ??  ?                 *
+ *    ?   ? Name     Event     Action    House  ??  ?                 *
+ *    ?   ?                                     ??  ?                 *
+ *    ?   ?                                     ??  ?                 *
+ *    ?   ?                                     ÃÄ?  ?                 *
+ *    ?   ?                                     ??  ?                 *
+ *    ?   ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÁÄÙ   ?                 *
+ *    ?                                                ?                 *
+ *    ?               [OK]     [Cancel]                ?                 *
+ *    ?                                                ?                 *
+ *    ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ?                 *
  *                                                                         *
  * INPUT:                                                                  *
  *      none.                                                              *
@@ -3512,20 +3512,20 @@ int MapEditClass::Import_Triggers(void)
  * MapEditClass::Import_Teams -- lets the user import teams                *
  *                                                                         *
  *    ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿           *
- *    ³                         Teams                          ³           *
- *    ³    ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÂÄ¿    ³           *
- *    ³    ³ Name     House    Class:Count,Class:Count  ³³    ³           *
- *    ³    ³ Name     House    Class:Count,Class:Count  ÃÄ´    ³           *
- *    ³    ³ Name     House    Class:Count,Class:Count  ³ ³    ³           *
- *    ³    ³ Name     House    Class:Count,Class:Count  ³ ³    ³           *
- *    ³    ³                                            ³ ³    ³           *
- *    ³    ³                                            ³ ³    ³           *
- *    ³    ³                                            ÃÄ´    ³           *
- *    ³    ³                                            ³³    ³           *
- *    ³    ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÁÄÙ    ³           *
- *    ³                                                        ³           *
- *    ³                    [OK]    [Cancel]                    ³           *
- *    ³                                                        ³           *
+ *    ?                        Teams                          ?          *
+ *    ?   ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÂÄ¿    ?          *
+ *    ?   ?Name     House    Class:Count,Class:Count  ??   ?          *
+ *    ?   ?Name     House    Class:Count,Class:Count  ÃÄ?   ?          *
+ *    ?   ?Name     House    Class:Count,Class:Count  ??   ?          *
+ *    ?   ?Name     House    Class:Count,Class:Count  ??   ?          *
+ *    ?   ?                                           ??   ?          *
+ *    ?   ?                                           ??   ?          *
+ *    ?   ?                                           ÃÄ?   ?          *
+ *    ?   ?                                           ??   ?          *
+ *    ?   ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÁÄÙ    ?          *
+ *    ?                                                       ?          *
+ *    ?                   [OK]    [Cancel]                    ?          *
+ *    ?                                                       ?          *
  *    ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ           *
  *                                                                         *
  * INPUT:                                                                  *

@@ -690,7 +690,7 @@ char const *EngMisStr[] = {
 	"Dugout Isle (Med)",						"L'Ile Maudite (Moy)",
 	"Equal Opportunity (Sm)",				"A Chances Egales (Min)",
 	"First Come, First Serve (Sm)",		"La Loi du Plus Fort (Min)",
-	"Island Hoppers (Sm)",					"D'une Ile … l'autre (Min)",
+	"Island Hoppers (Sm)",					"D'une Ile ?l'autre (Min)",
 	"Island Wars (Lg)",						"Guerres Insulaires (Max)",
 	"Isle of Fury (Lg)",						"L'Ile de la Furie(Max)",
 	"Ivory Wastelands (Sm)",				"Terres d'Ivoire (Min)",
@@ -714,12 +714,12 @@ char const *EngMisStr[] = {
 	"Antartica (Lg)",							"Antarctique (Max)",
 	"Armourgarden (Lg)",						"La Guerre des Blind‚s (Max)",
 	"Austraila (Med)",						"Australie (Moy)",
-	"Barrier to Entry (Lg)",				"BarriŠre … l'Entr‚e (Max)",
+	"Barrier to Entry (Lg)",				"BarriŠre ?l'Entr‚e (Max)",
 	"Bavarian Blast (Med)",					"Tonnerre Bavarois (Moy)",
 	"Be Shore (Med)",							"Plages Menac‚es (Moy)",
 	"Bearing Straits (Med)",				"Droit Devant ! (Moy)",
 	"Blow Holes (Lg)",						"CratŠres (Max)",
-	"Bonsai (Sm)",								"Bonsa‹ (Min)",
+	"Bonsai (Sm)",								"Bonsa?(Min)",
 	"Brother Stalin (Lg)",					"FrŠre Staline (Max)",
 	"Bullseye (Lg)",							"L'oeil du Taureau (Max)",
 	"C&C (Med)",								"C&C (Moy)",
@@ -768,11 +768,11 @@ char const *EngMisStr[] = {
 	"Polar Panic (Lg)",						"Panique Polaire (Max)",
 	"Ponds (Med)",								"Les Etangs (Moy)",
 	"Putney (Lg)",								"La Meilleure D‚fense... (Max)",
-	"Return to Zion (Lg)",					"Retour … Sion (Max)",
+	"Return to Zion (Lg)",					"Retour ?Sion (Max)",
 	"Ring of Land (Lg)",						"Le Cycle Infernal (Max)",
 	"River Basin (Lg)",						"Confrontation Navale (Max)",
 	"River Delta (Med)",						"Le Delta (Moy)",
-	"River Islands (Med)",					"C“tes … Surveiller de PrŠs (Moy)",
+	"River Islands (Med)",					"C“tes ?Surveiller de PrŠs (Moy)",
 	"River Maze (Sm)",						"Labyrinthe Fluvial (Min)",
 	"Rivers (Sm)",								"RiviŠres (Min)",
 	"Run the Gauntlet (Med)",				"Relevons le D‚fi ! (Moy)",
@@ -794,7 +794,7 @@ char const *EngMisStr[] = {
 	"The Great Lakes (Med)",				"Les Grands Lacs (Moy)",
 	"The Ice Arena (Lg)",					"L'ArŠne de Glace (Max)",
 	"The Lake District (Lg)",				"Un Lac Imprenable (Max)",
-	"The Linked lands (Lg)",				"Passages … Gu‚ (Max)",
+	"The Linked lands (Lg)",				"Passages ?Gu?(Max)",
 	"The Mississippi (Med)",				"Mississippi (Moy)",
 	"The Sticky Bit (Lg)",					"Marasme (Max)",
 	"The Valley (Med)",						"La Vall‚e (Moy)",
@@ -878,7 +878,7 @@ char const *EngMisStr[] = {
 	"Random Violence (Mega 8 players)",				 "Violence al‚atoire (XL 8 joueurs)",
 	"Revenge (Med 8 players)",							 "Vengeance (Moy. 8 joueurs)",
 	"Rias (Med 8 players)",								 "Rias (Moy. 8 joueurs)",
-	"River Crossing (Sm 4 players)",					 "Passage … gu‚ (Min. 4 joueurs)",
+	"River Crossing (Sm 4 players)",					 "Passage ?gu?(Min. 4 joueurs)",
 	"River Rampage (Mega 8 players)",				 "RiviŠre d‚chaŒn‚e (XL 8 joueurs)",
 	"River Rapids (Lg 6 players)",					 "Rapides (Max. 6 joueurs)",
 	"Rivers Wild (Mega 8 players)",					 "RiviŠres sauvages (XL 8 joueurs)",
@@ -908,7 +908,7 @@ char const *EngMisStr[] = {
 	"Trafalgar (Lg 4 players)",						 "Trafalgar (Max. 4 joueurs)",
 	"Twin Rivers (Sm 4 players)",						 "Les deux riviŠres (Min. 4 joueurs)",
 	"Umtumbo Gorge (Lg 4 players)",					 "La Gorge de Umtumbo (Max. 4 joueurs)",
-	"Watch Your Step Extreme (Mega 8 players)",	 "Pas-…-pas extrˆme (XL 8 joueurs)",
+	"Watch Your Step Extreme (Mega 8 players)",	 "Pas-?pas extrˆme (XL 8 joueurs)",
 	"Waterfalls (Lg 8 players)",						 "Chutes d'eau (Max. 8 joueurs)",
 	"Waterloo Revisited (Lg 6 players)",			 "Waterloo II (Max. 6 joueurs)",
 	"Water Werks (Mega 8 players)",					 "Jeux d'eau (XL 8 joueurs)",
@@ -6113,29 +6113,29 @@ extern bool Spawn_WChat(bool can_launch);
  * after the scenario has been loaded.																			  *
  *                                                                                             *
  *    ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿                                           *
- *    ³              New Network Game              ³                                           *
- *    ³                                            ³                                           *
- *    ³     Players               Scenario         ³                                           *
- *    ³ ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÂÄ¿   ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÂÄ¿ ³                                           *
- *    ³ ³ Boffo       ³.³   ³ Green Acres      ³.³ ³                                           *
- *    ³ ³ Bozo        ÃÄ´   ³ Brown Sewers     ÃÄ´ ³                                           *
- *    ³ ³ Bonzo       ³ ³   ³      ...         ³ ³ ³                                           *
- *    ³ ³             ÃÄ´   ³                  ÃÄ´ ³                                           *
- *    ³ ³             ³.³   ³                  ³.³ ³                                           *
- *    ³ ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÁÄÙ   ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÁÄÙ ³                                           *
- *    ³     [Reject]             Count:--- ##      ³                                           *
- *    ³                          Level:--- ##      ³                                           *
- *    ³                                            ³                                           *
- *    ³               Credits: _____               ³                                           *
- *    ³       [  Bases   ]   [   Crates   ]        ³                                           *
- *    ³       [ Tiberium ]   [ AI Players ]        ³                                           *
- *    ³  ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿   ³                                           *
- *    ³  ³                                     ³   ³                                           *
- *    ³  ³                                     ³   ³                                           *
- *    ³  ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ   ³                                           *
- *    ³  ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿   ³                                           *
- *    ³  ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ   ³                                           *
- *    ³              [OK]    [Cancel]              ³                                           *
+ *    ?             New Network Game              ?                                          *
+ *    ?                                           ?                                          *
+ *    ?    Players               Scenario         ?                                          *
+ *    ?ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÂÄ?  ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÂÄ¿ ?                                          *
+ *    ??Boffo       ??  ?Green Acres      ???                                          *
+ *    ??Bozo        ÃÄ?  ?Brown Sewers     ÃÄ??                                          *
+ *    ??Bonzo       ??  ?     ...         ???                                          *
+ *    ??            ÃÄ?  ?                 ÃÄ??                                          *
+ *    ??            ??  ?                 ???                                          *
+ *    ?ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÁÄ?  ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÁÄÙ ?                                          *
+ *    ?    [Reject]             Count:--- ##      ?                                          *
+ *    ?                         Level:--- ##      ?                                          *
+ *    ?                                           ?                                          *
+ *    ?              Credits: _____               ?                                          *
+ *    ?      [  Bases   ]   [   Crates   ]        ?                                          *
+ *    ?      [ Tiberium ]   [ AI Players ]        ?                                          *
+ *    ? ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ?  ?                                          *
+ *    ? ?                                    ?  ?                                          *
+ *    ? ?                                    ?  ?                                          *
+ *    ? ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ?  ?                                          *
+ *    ? ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ?  ?                                          *
+ *    ? ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ?  ?                                          *
+ *    ?             [OK]    [Cancel]              ?                                          *
  *    ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ                                           *
  *                                                                                             *
  * INPUT:                                                                                      *
@@ -6893,35 +6893,35 @@ static int Net_Fake_New_Dialog(void)
  * we ping him, requesting a CHAT_ANNOUNCE if he's still in chat.  If we don't hear				  *
  * from him after that, we remove him from our list.														  *
  *                                                                                             *
- *    ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿                                    *
- *    ³                 Network Games                     ³                                    *
- *    ³                                                   ³                                    *
- *    ³              Your Name: ____________              ³                                    *
- *    ³                  House: [GDI] [NOD]               ³                                    *
- *    ³          Desired Color: [ ][ ][ ][ ]              ³                                    *
- *    ³                                                   ³                                    *
- *    ³            Games                 Players          ³                                    *
- *    ³ ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÂÄ¿ ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÂÄ¿ ³                                    *
- *    ³ ³(Bill's Game         )³.³ ³ Peter Parker GDI ³.³ ³                                    *
- *    ³ ³ Peter Parker's Game  ÃÄ´ ³ Mary Jane    GDI ÃÄ´ ³                                    *
- *    ³ ³(Magnum PI's Game    )³ ³ ³ JJ Jameson   NOD ³ ³ ³                                    *
- *    ³ ³                      ÃÄ´ ³                  ÃÄ´ ³                                    *
- *    ³ ³                      ³.³ ³                  ³.³ ³                                    *
- *    ³ ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÁÄÙ ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÁÄÙ ³                                    *
- *    ³           Scenario: Big Long Description          ³                                    *
- *    ³                Starting Credits: xxxx             ³                                    *
- *    ³          Count: ---          Level: ---           ³                                    *
- *    ³          Bases: ON          Crates: ON            ³                                    *
- *    ³       Tiberium: ON      AI Players: ON            ³                                    *
- *    ³                                                   ³                                    *
- *    ³  ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿  ³                                    *
- *    ³  ³                                             ³  ³                                    *
- *    ³  ³                                             ³  ³                                    *
- *    ³  ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ  ³                                    *
- *    ³  ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿  ³                                    *
- *    ³  ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ  ³                                    *
- *    ³            [Join]  [Cancel]    [New]              ³                                    *
- *    ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ                                    *
+ *    ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ?                                   *
+ *    ?                Network Games                     ?                                   *
+ *    ?                                                  ?                                   *
+ *    ?             Your Name: ____________              ?                                   *
+ *    ?                 House: [GDI] [NOD]               ?                                   *
+ *    ?         Desired Color: [ ][ ][ ][ ]              ?                                   *
+ *    ?                                                  ?                                   *
+ *    ?           Games                 Players          ?                                   *
+ *    ?ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÂÄ¿ ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÂÄ¿ ?                                   *
+ *    ??Bill's Game         )???Peter Parker GDI ???                                   *
+ *    ??Peter Parker's Game  ÃÄ??Mary Jane    GDI ÃÄ??                                   *
+ *    ??Magnum PI's Game    )???JJ Jameson   NOD ???                                   *
+ *    ??                     ÃÄ??                 ÃÄ??                                   *
+ *    ??                     ???                 ???                                   *
+ *    ?ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÁÄÙ ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÁÄÙ ?                                   *
+ *    ?          Scenario: Big Long Description          ?                                   *
+ *    ?               Starting Credits: xxxx             ?                                   *
+ *    ?         Count: ---          Level: ---           ?                                   *
+ *    ?         Bases: ON          Crates: ON            ?                                   *
+ *    ?      Tiberium: ON      AI Players: ON            ?                                   *
+ *    ?                                                  ?                                   *
+ *    ? ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ? ?                                   *
+ *    ? ?                                            ? ?                                   *
+ *    ? ?                                            ? ?                                   *
+ *    ? ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ? ?                                   *
+ *    ? ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ? ?                                   *
+ *    ? ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ? ?                                   *
+ *    ?           [Join]  [Cancel]    [New]              ?                                   *
+ *    ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ?                                   *
  *                                                                                             *
  * INPUT:                                                                                      *
  *      none.                                                                                  *

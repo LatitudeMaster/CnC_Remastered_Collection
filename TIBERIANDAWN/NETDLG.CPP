@@ -701,34 +701,34 @@ bool Client_Remote_Connect(void)
  *                                                                         						  *
  * Any game running in Stealth mode won't show up on this dialog.										  *
  *                                                                         						  *
- *    ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿                     					  *
- *    ³                 Network Games                     ³                     					  *
- *    ³                                                   ³                     					  *
- *    ³              Your Name: ____________              ³                     					  *
- *    ³                  House: [GDI] [NOD]               ³                     					  *
- *    ³          Desired Color: [ ][ ][ ][ ]              ³                     					  *
- *    ³                                                   ³                     					  *
- *    ³            Games                 Players          ³                     					  *
- *    ³ ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÂÄ¿ ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÂÄ¿ ³                     					  *
- *    ³ ³(Bill's Game         )³³ ³ Peter Parker GDI ³³ ³                     					  *
- *    ³ ³ Peter Parker's Game  ÃÄ´ ³ Mary Jane    GDI ÃÄ´ ³                     					  *
- *    ³ ³(Magnum PI's Game    )³ ³ ³ JJ Jameson   NOD ³ ³ ³                     					  *
- *    ³ ³                      ÃÄ´ ³                  ÃÄ´ ³                     					  *
- *    ³ ³                      ³³ ³                  ³³ ³                     					  *
- *    ³ ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÁÄÙ ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÁÄÙ ³                     					  *
- *    ³           Scenario: Big Long Description          ³                     					  *
- *    ³                Starting Credits: xxxx             ³                     					  *
- *    ³          Count: ---          Level: ---           ³                     					  *
- *    ³          Bases: ON          Crates: ON            ³                          					  *
- *    ³       Tiberium: ON      AI Players: ON            ³                           					  *
- *    ³                                                   ³                     					  *
- *    ³            [Join]  [Cancel]    [New]              ³                     					  *
- *    ³  ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿  ³                     					  *
- *    ³  ³                                             ³  ³                     					  *
- *    ³  ³                                             ³  ³                     					  *
- *    ³  ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ  ³                     					  *
- *    ³                  [Send Message]                   ³                     					  *
- *    ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ                     					  *
+ *    ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ?                    					  *
+ *    ?                Network Games                     ?                    					  *
+ *    ?                                                  ?                    					  *
+ *    ?             Your Name: ____________              ?                    					  *
+ *    ?                 House: [GDI] [NOD]               ?                    					  *
+ *    ?         Desired Color: [ ][ ][ ][ ]              ?                    					  *
+ *    ?                                                  ?                    					  *
+ *    ?           Games                 Players          ?                    					  *
+ *    ?ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÂÄ¿ ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÂÄ¿ ?                    					  *
+ *    ??Bill's Game         )???Peter Parker GDI ???                    					  *
+ *    ??Peter Parker's Game  ÃÄ??Mary Jane    GDI ÃÄ??                    					  *
+ *    ??Magnum PI's Game    )???JJ Jameson   NOD ???                    					  *
+ *    ??                     ÃÄ??                 ÃÄ??                    					  *
+ *    ??                     ???                 ???                    					  *
+ *    ?ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÁÄÙ ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÁÄÙ ?                    					  *
+ *    ?          Scenario: Big Long Description          ?                    					  *
+ *    ?               Starting Credits: xxxx             ?                    					  *
+ *    ?         Count: ---          Level: ---           ?                    					  *
+ *    ?         Bases: ON          Crates: ON            ?                         					  *
+ *    ?      Tiberium: ON      AI Players: ON            ?                          					  *
+ *    ?                                                  ?                    					  *
+ *    ?           [Join]  [Cancel]    [New]              ?                    					  *
+ *    ? ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ? ?                    					  *
+ *    ? ?                                            ? ?                    					  *
+ *    ? ?                                            ? ?                    					  *
+ *    ? ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ? ?                    					  *
+ *    ?                 [Send Message]                   ?                    					  *
+ *    ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ?                    					  *
  *                                                                         						  *
  * INPUT:                                                                  						  *
  *		none.																												  *
@@ -2623,29 +2623,29 @@ CCDebugString ("C&C95 - Received the 'GO' packet\n");
  * the game initiator selectively approve each user.														  *
  *                                                                         						  *
  *    ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿                       						  *
- *    ³              New Network Game              ³                       						  *
- *    ³                                            ³                       						  *
- *    ³     Players               Scenario         ³   													  *
- *    ³ ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÂÄ¿   ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÂÄ¿ ³ 														  *
- *    ³ ³ Boffo       ³³   ³ Hell's Kitchen   ³³ ³ 														  *
- *    ³ ³ Bozo        ÃÄ´   ³ Heaven's Gate    ÃÄ´ ³														  *
- *    ³ ³ Bonzo       ³ ³   ³      ...         ³ ³ ³														  *
- *    ³ ³             ÃÄ´   ³                  ÃÄ´ ³ 														  *
- *    ³ ³             ³³   ³                  ³³ ³ 														  *
- *    ³ ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÁÄÙ   ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÁÄÙ ³ 														  *
- *    ³     [Reject]             Count:--- ##      ³														  *
- *    ³                          Level:--- ##      ³                       						  *
- *    ³                                            ³                       						  *
- *    ³               Credits: _____               ³                             				  *
- *    ³       [  Bases   ]   [   Crates   ]        ³                          					  *
- *    ³       [ Tiberium ]   [ AI Players ]        ³                           					  *
- *    ³                                            ³                       						  *
- *    ³              [OK]    [Cancel]              ³                       						  *
- *    ³  ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿   ³                       						  *
- *    ³  ³                                     ³   ³                       						  *
- *    ³  ³                                     ³   ³                       						  *
- *    ³  ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ   ³                       						  *
- *    ³               [Send Message]               ³                       						  *
+ *    ?             New Network Game              ?                      						  *
+ *    ?                                           ?                      						  *
+ *    ?    Players               Scenario         ?  													  *
+ *    ?ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÂÄ?  ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÂÄ¿ ?														  *
+ *    ??Boffo       ??  ?Hell's Kitchen   ???														  *
+ *    ??Bozo        ÃÄ?  ?Heaven's Gate    ÃÄ??													  *
+ *    ??Bonzo       ??  ?     ...         ???													  *
+ *    ??            ÃÄ?  ?                 ÃÄ??														  *
+ *    ??            ??  ?                 ???														  *
+ *    ?ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÁÄ?  ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÁÄÙ ?														  *
+ *    ?    [Reject]             Count:--- ##      ?													  *
+ *    ?                         Level:--- ##      ?                      						  *
+ *    ?                                           ?                      						  *
+ *    ?              Credits: _____               ?                            				  *
+ *    ?      [  Bases   ]   [   Crates   ]        ?                         					  *
+ *    ?      [ Tiberium ]   [ AI Players ]        ?                          					  *
+ *    ?                                           ?                      						  *
+ *    ?             [OK]    [Cancel]              ?                      						  *
+ *    ? ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ?  ?                      						  *
+ *    ? ?                                    ?  ?                      						  *
+ *    ? ?                                    ?  ?                      						  *
+ *    ? ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ?  ?                      						  *
+ *    ?              [Send Message]               ?                      						  *
  *    ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ                       						  *
  *                                                                         						  *
  * INPUT:                                                                  						  *

@@ -183,7 +183,7 @@ const char* NewName[] = {
 	"Volkov",  					"Volkov",
 	"Chitzkoi", 				"Cyber-Chien",
 	"Stavros",					"Stavros",
-	"F-A Longbow",				"HAA (H‚licoptŠre d'Assaut Avanc‚)",
+	"F-A Longbow",				"HAA (H‚licoptŠre d'Assaut Avanc?",
 	"Civilian Specialist",	"Sp‚cialiste Civil",
 	"Alloy Facility",			"Usine M‚tallurgique",
 	NULL,

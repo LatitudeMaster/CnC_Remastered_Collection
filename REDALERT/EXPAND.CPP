@@ -207,7 +207,7 @@ const char* XlatNames[] = {
 	"Conflit Sib‚rien 1: Traces FraŒches",
 	"Conflit Sib‚rien 2: Pris au PiŠge",
 	"Conflit Sib‚rien 3: Terres de Glace",
-	"Mise … l'Epreuve",
+	"Mise ?l'Epreuve",
 	"Assi‚g‚s",
 	"La SouriciŠre",
 	"L'H‚ritage de Tesla",
@@ -217,7 +217,7 @@ const char* XlatNames[] = {
 	"Intensification nucl‚aire",
 #ifdef FIXIT_CSII	//	checked - ajw 9/28/98
 "Le vieux port",				//	"SCG43EA",		// Harbor Reclamation
-"Juste … temps",				//	"SCG41EA",		// In the nick of time
+"Juste ?temps",				//	"SCG41EA",		// In the nick of time
 "La main dans le sac",		//	"SCG40EA",		// Caught in the act
 "Production interrompue",	//	"SCG42EA",		// Production Disruption
 "N‚gociations",				//	"SCG47EA",		// Negotiations

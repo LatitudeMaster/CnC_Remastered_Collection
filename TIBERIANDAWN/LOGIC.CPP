@@ -75,18 +75,18 @@ void LogicClass::Debug_Dump(MonoClass *mono) const
 	mono->Set_Cursor(21, 9);
 	mono->Print(
 		"ÚÄÄÄÄÄÄÄÄÄÄÂÄÄÄÂÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿\r"
-		"³Units.....³   ³Frame Rate:      Avg:      Frame:        ³\r"
-		"³Infantry..³   ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´\r"
-		"³Aircraft..³   ³                                         ³\r"
-		"³Buildings.³   ³                                         ³\r"
-		"³Terrain...³   Ã                                         ´\r"
-		"³Bullets...³   ³                                         ³\r"
-		"³Anims.....³   ³                                         ³\r"
-		"³Teams.....³   Ã                                        Ä´\r"
-		"³Triggers..³   ³                                         ³\r"
-		"³Factories.³   ³                                         ³\r"
-		"³          ³   Ã                                         ´\r"
-		"³          ³   ³                                         ³\r"
+		"³Units.....?  ³Frame Rate:      Avg:      Frame:        ³\r"
+		"³Infantry..?  ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´\r"
+		"³Aircraft..?  ?                                        ³\r"
+		"³Buildings.?  ?                                        ³\r"
+		"³Terrain...?  ?                                        ´\r"
+		"³Bullets...?  ?                                        ³\r"
+		"³Anims.....?  ?                                        ³\r"
+		"³Teams.....?  ?                                       Ä´\r"
+		"³Triggers..?  ?                                        ³\r"
+		"³Factories.?  ?                                        ³\r"
+		"?         ?  ?                                        ´\r"
+		"?         ?  ?                                        ³\r"
 		"ÀÄÄÄÄÄÄÄÄÄÄÁÄÄÄÁÄÄÄÄÄÄÄÄÄÄÄÄÄ´Spare CPU TimeÃÄÄÄÄÄÄÄÄÄÄÄÄÙ\r");
 
 	_framecounter++;

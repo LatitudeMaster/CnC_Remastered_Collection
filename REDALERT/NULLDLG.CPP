@@ -1582,33 +1582,33 @@ Advanced_Modem_Settings (SerialSettingsType *settings)
  * Com_Settings_Dialog -- Lets user select serial port settings            *
  *                                                                         *
  *  здддддддддддддддддддддддддддддддддддддддддддддддддддддд©               *
- *  Ё                    Settings                          Ё               *
- *  Ё                                                      Ё               *
- *  Ё     Port:____       IRQ:__        Baud:______        Ё               *
- *  Ё  здддддддддддд©  здддддддддддд©  здддддддддддд©      Ё               *
- *  Ё  Ё            Ё  Ё            Ё  Ё            Ё      Ё               *
- *  Ё  Ё            Ё  Ё            Ё  Ё            Ё      Ё               *
- *  Ё  Ё            Ё  Ё            Ё  Ё            Ё      Ё               *
- *  Ё  Ё            Ё  Ё            Ё  Ё            Ё      Ё               *
- *  Ё  юдддддддддддды  юдддддддддддды  юдддддддддддды      Ё               *
- *  Ё                                                      Ё               *
- *  Ё   Initialization:        [Add]   [Delete]            Ё               *
- *  Ё    _____________________________                     Ё               *
- *  Ё   здддддддддддддддддддддддддддддддддддддддддддд©     Ё               *
- *  Ё   Ё                                            Ё     Ё               *
- *  Ё   Ё                                            Ё     Ё               *
- *  Ё   Ё                                            Ё     Ё               *
- *  Ё   юдддддддддддддддддддддддддддддддддддддддддддды     Ё               *
- *  Ё                                                      Ё               *
- *  Ё   Call Waiting:                                      Ё               *
- *  Ё    _______________                                   Ё               *
- *  Ё   зддддддддддддддддд©          [Tone Dialing]        Ё               *
- *  Ё   Ё                 Ё                                Ё               *
- *  Ё   Ё                 Ё          [Pulse Dialing]       Ё               *
- *  Ё   Ё                 Ё                                Ё               *
- *  Ё   юддддддддддддддддды                                Ё               *
- *  Ё                                                      Ё               *
- *  Ё                   [OK]   [Cancel]                    Ё               *
+ *  ?                   Settings                          ?              *
+ *  ?                                                     ?              *
+ *  ?    Port:____       IRQ:__        Baud:______        ?              *
+ *  ? здддддддддддд©  здддддддддддд©  здддддддддддд©      ?              *
+ *  ? ?           ? ?           ? ?           ?     ?              *
+ *  ? ?           ? ?           ? ?           ?     ?              *
+ *  ? ?           ? ?           ? ?           ?     ?              *
+ *  ? ?           ? ?           ? ?           ?     ?              *
+ *  ? юдддддддддддды  юдддддддддддды  юдддддддддддды      ?              *
+ *  ?                                                     ?              *
+ *  ?  Initialization:        [Add]   [Delete]            ?              *
+ *  ?   _____________________________                     ?              *
+ *  ?  здддддддддддддддддддддддддддддддддддддддддддд©     ?              *
+ *  ?  ?                                           ?    ?              *
+ *  ?  ?                                           ?    ?              *
+ *  ?  ?                                           ?    ?              *
+ *  ?  юдддддддддддддддддддддддддддддддддддддддддддды     ?              *
+ *  ?                                                     ?              *
+ *  ?  Call Waiting:                                      ?              *
+ *  ?   _______________                                   ?              *
+ *  ?  зддддддддддддддддд?         [Tone Dialing]        ?              *
+ *  ?  ?                ?                               ?              *
+ *  ?  ?                ?         [Pulse Dialing]       ?              *
+ *  ?  ?                ?                               ?              *
+ *  ?  юддддддддддддддддд?                               ?              *
+ *  ?                                                     ?              *
+ *  ?                  [OK]   [Cancel]                    ?              *
  *  юдддддддддддддддддддддддддддддддддддддддддддддддддддддды               *
  *                                                                         *
  * INPUT:                                                                  *
@@ -4752,27 +4752,27 @@ bool Find_Local_Scenario (char *description, char *filename, unsigned int length
  * list boxes are filled in manually in the processing loop.											  *
  *                                                                         						  *
  *    здддддддддддддддддддддддддддддддддддддддддддддддддддддддддддд©                      	  *
- *    Ё                        Serial Game                         Ё                       	  *
- *    Ё                                                            Ё                      	  *
- *    Ё                   Your Name: __________                    Ё     							  *
- *    Ё                       House: [GDI] [NOD]                   Ё									  *
- *    Ё               Desired Color: [ ][ ][ ][ ]                  Ё 	   						  *
- *    Ё                                                            Ё                    	 	  *
- *    Ё                     Opponent: Name                         Ё                    	 	  *
- *    Ё                     Scenario: Description                  Ё   								  *
- *    Ё                      Credits: xxxx                         Ё   								  *
- *    Ё                        Bases: ON                           Ё                   	 	  *
- *    Ё                       Crates: ON                           Ё                   	 	  *
- *    Ё                     Tiberium: ON                           Ё                   	 	  *
- *    Ё                       Ghosts: ON                           Ё                   	 	  *
- *    Ё                                                            Ё                   	 	  *
- *    Ё                         [Cancel]                           Ё                    	 	  *
- *    Ё                                                            Ё                   	 	  *
- *    Ё   здддддддддддддддддддддддддддддддддддддддддддддддддддд©   Ё                   	 	  *
- *    Ё   Ё                                                    Ё   Ё                   	 	  *
- *    Ё   Ё                                                    Ё   Ё                   	 	  *
- *    Ё   юдддддддддддддддддддддддддддддддддддддддддддддддддддды   Ё                   	 	  *
- *    Ё                       [Send Message]                       Ё                   	 	  *
+ *    ?                       Serial Game                         ?                      	  *
+ *    ?                                                           ?                     	  *
+ *    ?                  Your Name: __________                    ?    							  *
+ *    ?                      House: [GDI] [NOD]                   ?								  *
+ *    ?              Desired Color: [ ][ ][ ][ ]                  ?	   						  *
+ *    ?                                                           ?                   	 	  *
+ *    ?                    Opponent: Name                         ?                   	 	  *
+ *    ?                    Scenario: Description                  ?  								  *
+ *    ?                     Credits: xxxx                         ?  								  *
+ *    ?                       Bases: ON                           ?                  	 	  *
+ *    ?                      Crates: ON                           ?                  	 	  *
+ *    ?                    Tiberium: ON                           ?                  	 	  *
+ *    ?                      Ghosts: ON                           ?                  	 	  *
+ *    ?                                                           ?                  	 	  *
+ *    ?                        [Cancel]                           ?                   	 	  *
+ *    ?                                                           ?                  	 	  *
+ *    ?  здддддддддддддддддддддддддддддддддддддддддддддддддддд©   ?                  	 	  *
+ *    ?  ?                                                   ?  ?                  	 	  *
+ *    ?  ?                                                   ?  ?                  	 	  *
+ *    ?  юдддддддддддддддддддддддддддддддддддддддддддддддддддды   ?                  	 	  *
+ *    ?                      [Send Message]                       ?                  	 	  *
  *    юдддддддддддддддддддддддддддддддддддддддддддддддддддддддддддды                      	  *
  *                                                                         						  *
  * INPUT:                                                                  						  *
@@ -7593,7 +7593,7 @@ void Hex_Dump_Data( char *buffer, int length )
 			itoh(c, buff);
 
 			if (!(i & 0x3) && i) {
-				Smart_Printf("Ё ");
+				Smart_Printf("?");
 			}
 
 			Smart_Printf("%s ", buff);
@@ -7627,7 +7627,7 @@ void Hex_Dump_Data( char *buffer, int length )
 				c = ptr[i];
 				itoh(c, buff);
 				if (!(i & 0x3) && i) {
-					Smart_Printf("Ё ");
+					Smart_Printf("?");
 				}
 				Smart_Printf("%s ", buff);
 			} else {

@@ -60,7 +60,7 @@
 #define TEXT_MUST_HAVE                  "Sie brauchen %d MByte freien Platz auf der Festplatte."
 #define TEXT_CRITICALLY_LOW   			 "Nicht genug Festplattenplatz fÅr Command & Conquer:AR.\nSie brauchen %d MByte freien Platz auf der Festplatte."
 #define TEXT_NO_RAM                     "Zuwenig Hauptspeicher verfÅgbar.\n"
-#define TEXT_USE_START_MENU					"\n\rWenn auf Ihrem Rechner Windows 95 l‰uft,\n\rstarten Sie die DOS-Version von Alarmstufe Rot\n\rbitte ¸ber das Start-Men¸ von Windows 95.\n\rZum Weitermachen beliebige Taste dr¸cken.\n\r"
+#define TEXT_USE_START_MENU					"\n\rWenn auf Ihrem Rechner Windows 95 l‰uft,\n\rstarten Sie die DOS-Version von Alarmstufe Rot\n\rbitte ¸ber das Start-Men?von Windows 95.\n\rZum Weitermachen beliebige Taste dr¸cken.\n\r"
 #define TEXT_SETUP_FIRST                "Bitte erst das SETUP-Programm starten.\n"
 #define TEXT_NO_MOUSE                   "C&C:AR kann Ihren Maustreiber nicht finden..."
 #define TEXT_FILE_ERROR       			 "DATEIFEHLER"
@@ -83,7 +83,7 @@
 
 
 #ifdef FRENCH
-#define TEXT_ERROR_TIMER                "Error - L'horloge systËme n'a pas pu s'initialiser en raison de l'instabilitÇ du sytËme. Vous devez redÇmarrer Windows."
+#define TEXT_ERROR_TIMER                "Error - L'horloge systËme n'a pas pu s'initialiser en raison de l'instabilit?du sytËme. Vous devez redÇmarrer Windows."
 #define TEXT_SHORT_TITLE                "Alerte Rouge"
 #define TEXT_MEMORY_ERROR               "Erreur - Plus de mÇmoire."
 #define TEXT_ABORT                              "Interrompre"
@@ -94,7 +94,7 @@
 #define TEXT_MUST_HAVE                  "Vous devez disposer de %d Mo d'espace disponsible sur le disque dur."
 #define TEXT_CRITICALLY_LOW     "Espace disque insuffisant pour lancer Command & Conquer.\nVous devez disposer de %d Mo d'espace disponsible sur le disque dur."
 #define TEXT_NO_RAM                             "MÇmoire vive (RAM) insuffisante.\n"
-#define TEXT_USE_START_MENU				 "\n\rSi vous àtes dans Windows 95 vous devez lancer Alerte Rouge\r\nDOS Ö partir du menu DÇmarrer de Windows 95.\n\rAppuyez sur n'importe quelle touche.\n\r"
+#define TEXT_USE_START_MENU				 "\n\rSi vous àtes dans Windows 95 vous devez lancer Alerte Rouge\r\nDOS ?partir du menu DÇmarrer de Windows 95.\n\rAppuyez sur n'importe quelle touche.\n\r"
 #define TEXT_SETUP_FIRST                "Lancez d'abord le programme de configuration SETUP.\n"
 #define TEXT_NO_MOUSE                   "Alerte Rouge ne peut pas dÇtecter votre gestionnaire de souris."
 #define TEXT_FILE_ERROR         "ERREUR DE FICHIER"
@@ -111,7 +111,7 @@
 										"              (Syntaxe: DESTNETxx.xx.xx.xx)\r\n" \
 										"  -SOCKET   = ID Socket rÇseau (0  16383)\r\n" \
 										"  -STEALTH  = Cacher les noms en mode multijoueurs (\"Mode Boss\")\r\n" \
-										"  -MESSAGES = Autorise les messages extÇrieurs Ö ce jeu.\r\n" \
+										"  -MESSAGES = Autorise les messages extÇrieurs ?ce jeu.\r\n" \
 										"\r\n"
 #endif
 

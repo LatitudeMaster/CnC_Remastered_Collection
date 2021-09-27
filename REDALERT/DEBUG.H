@@ -50,7 +50,7 @@
 #define TXT_DEBUG_INFANTRY       	0x40a 	// ÚFull
 #define TXT_DEBUG_SHIP           	0x40b 	// ÚFull
 #define TXT_DEBUG_BUILDING       	0x40c 	// ÚFull
-#define TXT_DEBUG_PERFORMANCE    	0x40d 	//  Game Objects³  Drawing  
+#define TXT_DEBUG_PERFORMANCE    	0x40d 	//  Game Objects? Drawing  
 #define TXT_DEBUG_AIRCRAFT       	0x40e 	// ÚFull
 #define TXT_DEBUG_HOUSE          	0x40f 	// ÚFull Name:ÄÄÄÄÄÄÄÄÂAct
 #define TXT_NO_PENTIUM           	0x410 	// ****************************
